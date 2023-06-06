@@ -4,9 +4,11 @@ go 1.18
 
 require (
 	github.com/golangci/golangci-lint v1.52.2
-	github.com/spf13/cobra v1.6.1
-	github.com/vmware-tanzu/tanzu-plugin-runtime v0.90.0-alpha.0
+	github.com/spf13/cobra v1.7.0
+	github.com/vmware-tanzu/tanzu-plugin-runtime v0.90.0-alpha.2
 )
+
+replace github.com/vmware-tanzu/tanzu-plugin-runtime => ../../../tanzu-plugin-runtime
 
 require (
 	4d63.com/gocheckcompilerdirectives v1.2.1 // indirect
@@ -80,7 +82,7 @@ require (
 	github.com/hashicorp/go-version v1.6.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/hexops/gotextdiff v1.0.3 // indirect
-	github.com/inconshreveable/mousetrap v1.0.1 // indirect
+	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/jgautheron/goconst v1.5.1 // indirect
 	github.com/jingyugao/rowserrcheck v1.1.1 // indirect
 	github.com/jirfag/go-printf-func-name v0.0.0-20200119135958-7558a9eaa5af // indirect
@@ -176,8 +178,8 @@ require (
 	golang.org/x/mod v0.9.0 // indirect
 	golang.org/x/sync v0.1.0 // indirect
 	golang.org/x/sys v0.6.0 // indirect
-	golang.org/x/term v0.5.0 // indirect
-	golang.org/x/text v0.7.0 // indirect
+	golang.org/x/term v0.6.0 // indirect
+	golang.org/x/text v0.8.0 // indirect
 	golang.org/x/tools v0.7.0 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
